@@ -1,0 +1,9 @@
+.details dt,
+.details dd {
+  display: inline;
+  margin: 0;
+}
+
+.details dt::after {
+  content: ": ";
+}
