@@ -7,3 +7,17 @@
 .details dt::after {
   content: ": ";
 }
+
+
+/* Languages */
+.lang::before {
+  margin-right: 0.5rem;
+}
+
+.lang.en::before {
+  content: "\1F1FA\1F1F8";
+}
+
+.lang.pl::before {
+  content: "\1F1F5\1F1F1";
+}
