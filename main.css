@@ -16,7 +16,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
 }
 
 h1,
@@ -27,6 +27,10 @@ h3 {
 
 
 /* Global */
+main {
+  padding: 0 1rem;
+}
+
 .details dt,
 .details dd {
   display: inline;
