@@ -108,3 +108,38 @@ dl:not(.details) > div + div {
 .lang.pl::before {
   content: "\1F1F5\1F1F1";
 }
+
+
+/* Media Queries */
+@media (min-width: 850px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  /* Navbar */
+  nav, main {
+    margin: 0 auto;
+    max-width: 50rem;
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    margin-right: auto;
+  }
+
+  /* Work Experience */
+  article {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  article p {
+    margin: 0;
+  }
+
+  article .content {
+    flex-basis: 100%;
+  }
+}
