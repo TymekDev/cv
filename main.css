@@ -1,5 +1,6 @@
 :root {
   --background: #ffffff;
+  --color: #444444;
 }
 
 
@@ -15,6 +16,9 @@ html {
 }
 
 body {
+  background: var(--background);
+  color: var(--color);
+  line-height: 1.4;
   margin: 0;
   padding: 0;
 }
@@ -28,7 +32,12 @@ h3 {
 
 /* Global */
 main {
+  margin-bottom: 2rem;
   padding: 0 1rem;
+}
+
+section {
+  margin-top: 2rem;
 }
 
 .details dt,
@@ -56,7 +65,7 @@ nav ul {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
-  gap: 1rem 2rem;
+  gap: 1rem 1.5rem;
   justify-content: center;
   list-style-type: none;
   margin: 0;
@@ -69,7 +78,19 @@ nav li:first-child {
 }
 
 nav [class*="fa-"] {
-  font-size: 150%;
+  font-size: 2rem;
+}
+
+
+/* Skills */
+h3 {
+  margin-top: 1rem;
+}
+
+
+/* Education */
+dl:not(.details) > div + div {
+  margin-top: 0.5rem;
 }
 
 
