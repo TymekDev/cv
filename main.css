@@ -79,8 +79,19 @@ nav li:first-child {
   text-align: center;
 }
 
+nav a {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-decoration: none;
+}
+
 nav [class*="fa-"] {
   font-size: 2rem;
+}
+
+nav span:last-child {
+  font-size: 0.8rem;
 }
 
 
