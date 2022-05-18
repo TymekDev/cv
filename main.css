@@ -85,6 +85,18 @@ nav [class*="fa-"] {
 
 
 /* Skills */
+dl.horizontal {
+  display: flex; 
+  flex-flow: row wrap;
+}
+
+dl.horizontal dt {
+  flex-basis: 100%;
+  font-weight: bold;
+}
+
+
+/* Work Experience */
 h3 {
   margin-top: 1rem;
 }
