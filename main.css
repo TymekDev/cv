@@ -2,10 +2,14 @@
   --sans: "Maven Pro", sans-serif;
 
   --black: #31353D;
+  --blue: #0074D9;
+  --navy: #004B8D;
   --white: #EEEFF7;
 
   --background: var(--white);
   --foreground: var(--black);
+  --link: var(--navy);
+  --link-hover: var(--blue);
 }
 
 
@@ -56,6 +60,15 @@ section {
   content: ": ";
 }
 
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
 
 /* Navbar */
 nav {
@@ -96,6 +109,10 @@ nav [class*="fa-"] {
 
 nav span:last-child {
   font-size: 0.8rem;
+}
+
+nav a:hover span:last-child {
+  text-decoration: underline;
 }
 
 
