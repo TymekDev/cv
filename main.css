@@ -1,7 +1,11 @@
 :root {
-  --background: #ffffff;
-  --color: #444444;
   --sans: "Maven Pro", sans-serif;
+
+  --black: #31353D;
+  --white: #EEEFF7;
+
+  --background: var(--white);
+  --foreground: var(--black);
 }
 
 
@@ -18,7 +22,7 @@ html {
 
 body {
   background: var(--background);
-  color: var(--color);
+  color: var(--foreground);
   font-family: var(--sans);
   line-height: 1.4;
   margin: 0;
@@ -56,7 +60,7 @@ section {
 /* Navbar */
 nav {
   background: var(--background);
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--foreground);
   margin: 0 auto 1rem auto;
   padding: 1rem;
   position: sticky;
