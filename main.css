@@ -188,3 +188,35 @@ dl:not(.details) > div + div {
     flex-basis: 100%;
   }
 }
+
+@media print {
+  body {
+    font-size: 12px;
+  }
+
+  nav li:nth-of-type(n+2) {
+    display: none;
+  }
+
+  section {
+    margin-top: 0.5rem;
+  }
+
+  main > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main > div > * {
+    flex-basis: 50%;
+  }
+
+  main > div > div {
+    display: flex;
+    flex-flow: column;
+  }
+
+  main > div > div > :first-child {
+    order: 2;
+  }
+}
