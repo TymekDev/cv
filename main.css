@@ -159,7 +159,9 @@ dl:not(.details) > div + div {
   body {
     font-size: 1.3rem;
   }
+}
 
+@media print, (min-width: 850px) {
   /* Navbar */
   nav, main {
     max-width: 50rem;
