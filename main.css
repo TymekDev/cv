@@ -50,6 +50,10 @@ section {
   margin-top: 2rem;
 }
 
+section > h2 {
+  margin-bottom: 1rem;
+}
+
 .details dt,
 .details dd {
   display: inline;
@@ -117,21 +121,29 @@ nav a:hover span:last-child {
 
 
 /* Skills */
-dl.horizontal {
+#skills dl {
   display: flex;
   flex-flow: row wrap;
+  margin: 0;
 }
 
-dl.horizontal dt {
+#skills dt {
   flex-basis: 100%;
   font-weight: bold;
+}
+
+#skills dt:not(:first-child) {
   margin-top: 0.5rem;
 }
 
 
 /* Work Experience */
-h3 {
+article {
   margin-top: 1rem;
+}
+
+article:last-child ul {
+  margin-bottom: 0;
 }
 
 
