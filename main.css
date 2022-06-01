@@ -221,6 +221,6 @@ dl:not(.details) > div + div {
   }
 
   #education {
-    break-before: always;
+    break-before: page;
   }
 }
