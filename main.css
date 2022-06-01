@@ -216,10 +216,6 @@ dl:not(.details) > div + div {
     display: none;
   }
 
-  section {
-    margin-top: 0.5rem;
-  }
-
   #education {
     break-before: page;
   }
