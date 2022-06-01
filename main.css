@@ -138,12 +138,14 @@ nav a:hover span:last-child {
 
 
 /* Work Experience */
-article {
-  margin-top: 1rem;
+#experience > div {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
 }
 
-article:last-child ul {
-  margin-bottom: 0;
+#experience ul {
+  margin: 0.5rem 0;
 }
 
 
