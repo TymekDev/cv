@@ -54,6 +54,10 @@ section > h2 {
   margin-bottom: 1rem;
 }
 
+section > h2 + *{
+  margin-top: 0;
+}
+
 .details dt,
 .details dd {
   display: inline;
@@ -124,7 +128,6 @@ nav a:hover span:last-child {
 #skills dl {
   display: flex;
   flex-flow: row wrap;
-  margin: 0;
 }
 
 #skills dt {
