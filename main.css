@@ -118,13 +118,14 @@ nav a:hover span:last-child {
 
 /* Skills */
 dl.horizontal {
-  display: flex; 
+  display: flex;
   flex-flow: row wrap;
 }
 
 dl.horizontal dt {
   flex-basis: 100%;
   font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 
