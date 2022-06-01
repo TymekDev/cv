@@ -203,21 +203,7 @@ dl:not(.details) > div + div {
     margin-top: 0.5rem;
   }
 
-  main > div {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  main > div > * {
-    flex-basis: 50%;
-  }
-
-  main > div > div {
-    display: flex;
-    flex-flow: column;
-  }
-
-  main > div > div > :first-child {
-    order: 2;
+  #education {
+    break-before: always;
   }
 }
