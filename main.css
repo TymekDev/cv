@@ -222,6 +222,10 @@ dl:not(.details) > div + div {
     font-size: 12px;
   }
 
+  nav {
+    position: initial;
+  }
+
   nav li:nth-of-type(n+2) {
     display: none;
   }
