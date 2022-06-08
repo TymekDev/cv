@@ -226,6 +226,11 @@ dl:not(.details) > div + div {
     font-size: 12px;
   }
 
+  a {
+    color: var(--foreground);
+    text-decoration: none;
+  }
+
   nav {
     position: initial;
   }
