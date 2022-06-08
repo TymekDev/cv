@@ -161,6 +161,10 @@ nav a:hover span:last-child {
   margin: 0.5rem 0;
 }
 
+#experience article:last-of-type ul {
+  margin-bottom: 0;
+}
+
 
 /* Education */
 dl:not(.details) > div + div {
