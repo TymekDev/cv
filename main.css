@@ -115,8 +115,12 @@ nav [class*="fa-"] {
   font-size: 2rem;
 }
 
-nav span:last-child {
+nav span.label {
   font-size: 0.8rem;
+}
+
+nav span.print-only {
+  display: none;
 }
 
 nav a:hover span:last-child {
@@ -233,7 +237,37 @@ dl:not(.details) > div + div {
     position: initial;
   }
 
-  nav li:nth-of-type(n+2) {
+  nav ul {
+    justify-content: space-evenly;
+    row-gap: 1.5rem;
+  }
+
+  nav li:first-child {
+    flex-basis: 100%;
+  }
+
+  nav h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    flex-flow: row;
+    gap: 0.5rem;
+  }
+
+  nav [class*="fa-"] {
+    font-size: 1.25rem;
+  }
+
+  nav span.label {
+    display: none;
+  }
+
+  nav span.print-only {
+    display: inline;
+  }
+
+  nav li:last-child {
     display: none;
   }
 
@@ -243,7 +277,11 @@ dl:not(.details) > div + div {
     padding: 0.15rem 0.5rem;
   }
 
-  #education {
+  #experience {
+    margin-top: 3rem;
+  }
+
+  #experience article:last-of-type {
     break-before: page;
   }
 }
